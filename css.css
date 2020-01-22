@@ -19,8 +19,9 @@ h1 {
 
 .slide img {
     width: 18.5vw;
-    height: 32vh;
-	margin-top: 16vh;
+    height: 25vh;
+	margin-top: 14vh;
+    margin-bottom: 2.5vh;
 }
 
 .slide h1 {
@@ -38,21 +39,22 @@ h1 {
 
 .arrows button {
     border-color: transparent;
+    border: solid 1px black;
 }
 
 .arrows img {
-	margin-top: 7.5vh;
-	width: 8vw;
+	margin-top: 2.5vh;
+	width: 6.5vw;
     height: 8vh;
 	border-radius: 50%;
-    margin-left: 25px;
-    margin-right: 25px; 
-	background-color: white;
+    margin-left: 5px;
+    margin-right: 5px; 
+	background-color: transparent;
     transition: transform 2s;
 }
 
 .arrows img:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 .bg {
